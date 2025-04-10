@@ -1,32 +1,15 @@
-import mongoose from 'mongoose';
-const { Schema, model } = mongoose;
+import { z } from 'zod';
 
-const userSchema = new Schema({
-  username: {
-    type: String,
-    required: true,
-    minlength: 3
-  },
-  email: {
-    type: String,
-    required: true,
-    unique: true,
-    lowercase: true
-  },
-  password: {
-    type: String,
-    required: true
-  },
-  routines: [{
-    type: Schema.Types.ObjectId,
-    ref: 'Routine'
-  }],
-  trainingHistory: [{
-    type: Schema.Types.ObjectId,
-    ref: 'Training'
-  }]
-}, {
-  timestamps: true // para createdAt y updatedAt automáticos
+export const registerUserSchema = z.object({
+  username: z
+    .string()
+    .min(3, { message: 'El nombre de usuario debe tener al menos 3 caracteres' }),
+
+  email: z
+    .string()
+    .email({ message: 'El email no es válido' }),
+
+  password: z
+    .string()
+    .min(6, { message: 'La contraseña debe tener al menos 6 caracteres' })
 });
-
-export default model('User', userSchema);
