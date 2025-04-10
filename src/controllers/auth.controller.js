@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 import config from '../../config.js';
-import User from '../../models/User.js';
+import User from '../models/User.js';
 import { successResponse, errorResponse } from '../../utils/response.js';
 
 const JWT_SECRET = config.security.JWT_SECRET;
