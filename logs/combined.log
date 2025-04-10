@@ -2,3 +2,23 @@
 {"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-09T08:54:30.545Z"}
 {"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-09T11:33:36.467Z"}
 {"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-09T11:33:36.486Z"}
+{"level":"info","message":"[2025-04-09T12:14:42.165Z] POST /api/auth/register/user","timestamp":"2025-04-09T12:14:42.165Z"}
+{"level":"info","message":"::1 - - [09/Apr/2025:12:14:42 +0000] \"POST /api/auth/register/user HTTP/1.1\" 404 162 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-09T12:14:42.171Z"}
+{"level":"info","message":"[2025-04-09T12:14:57.819Z] POST /api/auth/register/user","timestamp":"2025-04-09T12:14:57.820Z"}
+{"level":"info","message":"::1 - - [09/Apr/2025:12:14:57 +0000] \"POST /api/auth/register/user HTTP/1.1\" 404 162 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-09T12:14:57.821Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-09T12:15:27.326Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-09T12:15:27.333Z"}
+{"level":"info","message":"[2025-04-09T12:15:30.621Z] POST /api/auth/register","timestamp":"2025-04-09T12:15:30.621Z"}
+{"level":"info","message":"::1 - - [09/Apr/2025:12:15:30 +0000] \"POST /api/auth/register HTTP/1.1\" 404 157 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-09T12:15:30.628Z"}
+{"level":"info","message":"[2025-04-09T12:16:43.015Z] POST /api/v1/auth/register","timestamp":"2025-04-09T12:16:43.015Z"}
+{"level":"info","message":"::1 - - [09/Apr/2025:12:16:43 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 200 430 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-09T12:16:43.097Z"}
+{"level":"info","message":"[2025-04-09T12:20:00.422Z] POST /api/v1/auth/login","timestamp":"2025-04-09T12:20:00.422Z"}
+{"level":"info","message":"::1 - - [09/Apr/2025:12:20:00 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 500 96 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-09T12:20:00.482Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-09T12:21:00.892Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-09T12:21:00.899Z"}
+{"level":"info","message":"[2025-04-09T12:21:03.911Z] POST /api/v1/auth/login","timestamp":"2025-04-09T12:21:03.911Z"}
+{"level":"info","message":"::1 - - [09/Apr/2025:12:21:03 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 318 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-09T12:21:03.992Z"}
+{"level":"info","message":"[2025-04-09T12:21:54.572Z] POST /api/v1/auth/verify","timestamp":"2025-04-09T12:21:54.572Z"}
+{"level":"info","message":"::1 - - [09/Apr/2025:12:21:54 +0000] \"POST /api/v1/auth/verify HTTP/1.1\" 404 158 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-09T12:21:54.574Z"}
+{"level":"info","message":"[2025-04-09T12:22:03.582Z] GET /api/v1/auth/verify","timestamp":"2025-04-09T12:22:03.582Z"}
+{"level":"info","message":"::1 - - [09/Apr/2025:12:22:03 +0000] \"GET /api/v1/auth/verify HTTP/1.1\" 200 130 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-09T12:22:03.586Z"}

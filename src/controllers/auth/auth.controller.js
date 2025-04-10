@@ -15,7 +15,7 @@ export const verifyTokenController = async (req, res) => {
   jwt.verify(token, JWT_SECRET, async (error, decoded) => {
     if (error) return errorResponse(res, 403, 'Authentication token is invalid or expired');
 
-    const { id, role } = decoded;
+    const { id } = decoded;
     let userData;
 
     userData = await User.findById(id);
@@ -42,7 +42,7 @@ export const loginController = async (req, res) => {
     const isMatch = await bcrypt.compare(password, userFound.password);
     if (!isMatch) return errorResponse(res, 400, 'Incorrect Password');
 
-    const token = await generateAccessToken({ id: userFound._id, role, status });
+    const token = await generateAccessToken({ id: userFound._id });
 
     return successResponse(res, 'Login successful', {
       id: userFound._id,
@@ -72,7 +72,7 @@ export const registerUserController = async (req, res) => {
       password: passwordHash
     });
     const userSaved = await newUser.save();
-    const token = await generateAccessToken({ id: userSaved._id, role: 'user' });
+    const token = await generateAccessToken({ id: userSaved._id });
 
     return successResponse(res, 'You have registered successfully', {
       id: userSaved._id,

@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
 });
 
 router.post('/login', validateSchema(loginSchema), loginController);
-router.post('/register/user', validateSchema(registerUserSchema), registerUserController);
+router.post('/register', validateSchema(registerUserSchema), registerUserController);
 router.get('/verify', verifyTokenController);
 
 export default router;
