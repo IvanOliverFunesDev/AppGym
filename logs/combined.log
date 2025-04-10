@@ -22,3 +22,15 @@
 {"level":"info","message":"::1 - - [10/Apr/2025:08:32:54 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 200 443 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-10T08:32:54.382Z"}
 {"level":"info","message":"[2025-04-10T08:33:07.136Z] POST /api/v1/auth/login","timestamp":"2025-04-10T08:33:07.136Z"}
 {"level":"info","message":"::1 - - [10/Apr/2025:08:33:07 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 349 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-10T08:33:07.183Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-10T08:37:42.409Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-10T08:37:42.416Z"}
+{"level":"info","message":"[2025-04-10T08:37:47.337Z] POST /api/v1/crear","timestamp":"2025-04-10T08:37:47.337Z"}
+{"level":"info","message":"::1 - - [10/Apr/2025:08:37:47 +0000] \"POST /api/v1/crear HTTP/1.1\" 404 152 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-10T08:37:47.344Z"}
+{"level":"info","message":"[2025-04-10T08:38:42.558Z] POST /api/v1/routines/crear","timestamp":"2025-04-10T08:38:42.558Z"}
+{"level":"info","message":"::1 - - [10/Apr/2025:08:38:42 +0000] \"POST /api/v1/routines/crear HTTP/1.1\" 404 161 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-10T08:38:42.559Z"}
+{"level":"info","message":"[2025-04-10T08:39:12.277Z] POST /api/v1/routines/","timestamp":"2025-04-10T08:39:12.277Z"}
+{"level":"info","message":"::1 - - [10/Apr/2025:08:39:12 +0000] \"POST /api/v1/routines/ HTTP/1.1\" 404 156 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-10T08:39:12.278Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-10T08:39:47.264Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-10T08:39:47.271Z"}
+{"level":"info","message":"[2025-04-10T08:39:50.923Z] POST /api/v1/routines/","timestamp":"2025-04-10T08:39:50.923Z"}
+{"level":"info","message":"::1 - - [10/Apr/2025:08:39:50 +0000] \"POST /api/v1/routines/ HTTP/1.1\" 200 823 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-10T08:39:50.947Z"}

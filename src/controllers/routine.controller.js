@@ -1,4 +1,4 @@
-import Routine from '../../models/Routine.js';
+import Routine from '../models/Routine.js';
 import { errorResponse, successResponse } from '../../utils/response.js';
 
 export const createRoutineController = async (req, res) => {
