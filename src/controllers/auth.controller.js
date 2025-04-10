@@ -1,7 +1,9 @@
 import jwt from 'jsonwebtoken';
-import config from '../../config.js';
-import User from '../../models/User.js';
+import config from '../config.js';
+import User from '../models/User.js';
 import { successResponse, errorResponse } from '../../utils/response.js';
+import { generateAccessToken } from '../services/generateAccessToken.js'
+import bcrypt from 'bcrypt';
 
 const JWT_SECRET = config.security.JWT_SECRET;
 
