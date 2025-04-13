@@ -10,7 +10,7 @@ const trainingSchema = new Schema({
   routine: {
     type: Schema.Types.ObjectId,
     ref: 'Routine',
-    required: false // en caso de que se permita entrenos sueltos en el futuro
+    required: false
   },
   routineDayNumber: {
     type: Number,
@@ -21,11 +21,11 @@ const trainingSchema = new Schema({
     series: [{
       weight: Number,
       reps: Number,
-      rest: Number // segundos entre series
+      rest: Number
     }],
     restBetweenExercises: {
       type: Number,
-      default: 0 // segundos entre ejercicios
+      default: 0
     }
   }],
   notes: {
