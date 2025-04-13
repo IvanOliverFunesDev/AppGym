@@ -78,3 +78,91 @@
 {"level":"info","message":"::1 - - [13/Apr/2025:18:03:36 +0000] \"DELETE /api/v1/routines/67f783d6a6709bf035ff56be HTTP/1.1\" 200 69 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T18:03:36.042Z"}
 {"level":"info","message":"[2025-04-13T18:03:44.928Z] GET /api/v1/routines/","timestamp":"2025-04-13T18:03:44.928Z"}
 {"level":"info","message":"::1 - - [13/Apr/2025:18:03:44 +0000] \"GET /api/v1/routines/ HTTP/1.1\" 400 97 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T18:03:44.933Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-13T19:47:05.878Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-13T19:47:05.902Z"}
+{"level":"info","message":"[2025-04-13T19:47:52.615Z] POST /api/v1/auth/login","timestamp":"2025-04-13T19:47:52.615Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:19:47:52 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 349 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T19:47:52.807Z"}
+{"level":"info","message":"[2025-04-13T19:48:17.629Z] POST /api/v1/training","timestamp":"2025-04-13T19:48:17.629Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:19:48:17 +0000] \"POST /api/v1/training HTTP/1.1\" 200 642 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T19:48:17.669Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-13T21:58:27.462Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-13T21:58:27.469Z"}
+{"level":"info","message":"[2025-04-13T22:02:07.257Z] GET /api/routines/day/3","timestamp":"2025-04-13T22:02:07.257Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:02:07 +0000] \"GET /api/routines/day/3 HTTP/1.1\" 404 157 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:02:07.261Z"}
+{"level":"info","message":"[2025-04-13T22:02:55.187Z] GET /api/v1/routines/day/3","timestamp":"2025-04-13T22:02:55.187Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:02:55 +0000] \"GET /api/v1/routines/day/3 HTTP/1.1\" 404 72 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:02:55.198Z"}
+{"level":"info","message":"[2025-04-13T22:03:00.748Z] GET /api/v1/routines/day/1","timestamp":"2025-04-13T22:03:00.748Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:03:00 +0000] \"GET /api/v1/routines/day/1 HTTP/1.1\" 404 72 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:03:00.751Z"}
+{"level":"info","message":"[2025-04-13T22:03:05.565Z] GET /api/v1/routines/","timestamp":"2025-04-13T22:03:05.565Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:03:05 +0000] \"GET /api/v1/routines/ HTTP/1.1\" 400 97 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:03:05.571Z"}
+{"level":"info","message":"[2025-04-13T22:03:13.753Z] POST /api/v1/routines/","timestamp":"2025-04-13T22:03:13.753Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:03:13 +0000] \"POST /api/v1/routines/ HTTP/1.1\" 200 823 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:03:13.767Z"}
+{"level":"info","message":"[2025-04-13T22:03:26.489Z] GET /api/v1/routines/day/1","timestamp":"2025-04-13T22:03:26.489Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:03:26 +0000] \"GET /api/v1/routines/day/1 HTTP/1.1\" 200 287 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:03:26.494Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-13T22:04:26.852Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-13T22:04:26.859Z"}
+{"level":"info","message":"[2025-04-13T22:04:31.967Z] GET /api/v1/routines/day/1","timestamp":"2025-04-13T22:04:31.967Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:04:31 +0000] \"GET /api/v1/routines/day/1 HTTP/1.1\" 200 277 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:04:31.985Z"}
+{"level":"info","message":"[2025-04-13T22:10:18.030Z] GET /api/v1/routines/","timestamp":"2025-04-13T22:10:18.030Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:10:18 +0000] \"GET /api/v1/routines/ HTTP/1.1\" 200 813 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:10:18.038Z"}
+{"level":"info","message":"[2025-04-13T22:10:19.235Z] GET /api/v1/routines/","timestamp":"2025-04-13T22:10:19.235Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:10:19 +0000] \"GET /api/v1/routines/ HTTP/1.1\" 200 813 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:10:19.240Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-13T22:16:18.806Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-13T22:16:18.814Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-13T22:18:18.597Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-13T22:18:18.604Z"}
+{"level":"info","message":"[2025-04-13T22:18:20.480Z] GET /api/v1/routines/user","timestamp":"2025-04-13T22:18:20.480Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:18:20 +0000] \"GET /api/v1/routines/user HTTP/1.1\" 404 159 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:18:20.486Z"}
+{"level":"info","message":"[2025-04-13T22:18:32.695Z] GET /api/v1/training/user","timestamp":"2025-04-13T22:18:32.695Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:18:32 +0000] \"GET /api/v1/training/user HTTP/1.1\" 200 635 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:18:32.707Z"}
+{"level":"info","message":"[2025-04-13T22:19:19.794Z] POST /api/v1/training","timestamp":"2025-04-13T22:19:19.794Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:19:19 +0000] \"POST /api/v1/training HTTP/1.1\" 200 652 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:19:19.806Z"}
+{"level":"info","message":"[2025-04-13T22:19:26.143Z] GET /api/v1/routines/day/1","timestamp":"2025-04-13T22:19:26.143Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:19:26 +0000] \"GET /api/v1/routines/day/1 HTTP/1.1\" 200 277 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:19:26.149Z"}
+{"level":"info","message":"[2025-04-13T22:19:46.009Z] GET /api/v1/routines/day/2","timestamp":"2025-04-13T22:19:46.009Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:19:46 +0000] \"GET /api/v1/routines/day/2 HTTP/1.1\" 200 284 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:19:46.012Z"}
+{"level":"info","message":"[2025-04-13T22:19:47.325Z] GET /api/v1/routines/day/3","timestamp":"2025-04-13T22:19:47.325Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:19:47 +0000] \"GET /api/v1/routines/day/3 HTTP/1.1\" 200 267 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:19:47.328Z"}
+{"level":"info","message":"[2025-04-13T22:19:48.078Z] GET /api/v1/routines/day/","timestamp":"2025-04-13T22:19:48.078Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:19:48 +0000] \"GET /api/v1/routines/day/ HTTP/1.1\" 404 159 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:19:48.079Z"}
+{"level":"info","message":"[2025-04-13T22:19:50.504Z] GET /api/v1/routines/day/3","timestamp":"2025-04-13T22:19:50.504Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:19:50 +0000] \"GET /api/v1/routines/day/3 HTTP/1.1\" 200 267 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:19:50.507Z"}
+{"level":"info","message":"[2025-04-13T22:19:51.720Z] GET /api/v1/routines/day/1","timestamp":"2025-04-13T22:19:51.720Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:19:51 +0000] \"GET /api/v1/routines/day/1 HTTP/1.1\" 200 277 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:19:51.723Z"}
+{"level":"info","message":"[2025-04-13T22:20:05.646Z] GET /api/v1/training/user","timestamp":"2025-04-13T22:20:05.646Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:20:05 +0000] \"GET /api/v1/training/user HTTP/1.1\" 200 1215 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:20:05.651Z"}
+{"level":"info","message":"[2025-04-13T22:20:13.501Z] GET /api/v1/training/user?order=asc","timestamp":"2025-04-13T22:20:13.501Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:20:13 +0000] \"GET /api/v1/training/user?order=asc HTTP/1.1\" 200 1215 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:20:13.504Z"}
+{"level":"info","message":"[2025-04-13T22:20:24.618Z] GET /api/v1/training/user?order=dsc","timestamp":"2025-04-13T22:20:24.618Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:20:24 +0000] \"GET /api/v1/training/user?order=dsc HTTP/1.1\" 200 1215 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:20:24.622Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-13T22:38:23.650Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-13T22:38:23.657Z"}
+{"level":"info","message":"[2025-04-13T22:38:58.800Z] GET /api/trainings/user/day/3","timestamp":"2025-04-13T22:38:58.800Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:38:58 +0000] \"GET /api/trainings/user/day/3 HTTP/1.1\" 404 163 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:38:58.807Z"}
+{"level":"info","message":"[2025-04-13T22:39:06.860Z] GET /api/v1/trainings/user/day/3","timestamp":"2025-04-13T22:39:06.860Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:39:06 +0000] \"GET /api/v1/trainings/user/day/3 HTTP/1.1\" 404 166 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:39:06.862Z"}
+{"level":"info","message":"[2025-04-13T22:39:22.741Z] GET /api/v1/trainings/user/day/3","timestamp":"2025-04-13T22:39:22.741Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:39:22 +0000] \"GET /api/v1/trainings/user/day/3 HTTP/1.1\" 404 166 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:39:22.742Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-13T22:39:31.045Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-13T22:39:31.052Z"}
+{"level":"info","message":"[2025-04-13T22:39:33.638Z] GET /api/v1/trainings/user/day/3","timestamp":"2025-04-13T22:39:33.638Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:39:33 +0000] \"GET /api/v1/trainings/user/day/3 HTTP/1.1\" 200 64 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:39:33.651Z"}
+{"level":"info","message":"[2025-04-13T22:39:39.278Z] GET /api/v1/trainings/user/day/2","timestamp":"2025-04-13T22:39:39.278Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:39:39 +0000] \"GET /api/v1/trainings/user/day/2 HTTP/1.1\" 200 643 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:39:39.285Z"}
+{"level":"info","message":"[2025-04-13T22:39:46.861Z] GET /api/v1/trainings/user/day/1","timestamp":"2025-04-13T22:39:46.861Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:39:46 +0000] \"GET /api/v1/trainings/user/day/1 HTTP/1.1\" 200 633 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:39:46.865Z"}
+{"level":"info","message":"[2025-04-13T22:40:02.775Z] POST /api/v1/training","timestamp":"2025-04-13T22:40:02.775Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:40:02 +0000] \"POST /api/v1/training HTTP/1.1\" 404 155 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:40:02.777Z"}
+{"level":"info","message":"[2025-04-13T22:40:06.510Z] POST /api/v1/trainings","timestamp":"2025-04-13T22:40:06.510Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:40:06 +0000] \"POST /api/v1/trainings HTTP/1.1\" 200 653 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:40:06.524Z"}
+{"level":"info","message":"[2025-04-13T22:40:10.822Z] GET /api/v1/trainings/user/day/2","timestamp":"2025-04-13T22:40:10.822Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:40:10 +0000] \"GET /api/v1/trainings/user/day/2 HTTP/1.1\" 200 1224 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:40:10.828Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-13T22:43:25.539Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-13T22:43:25.547Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-13T22:44:32.354Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-13T22:44:32.361Z"}
+{"level":"info","message":"[2025-04-13T22:44:36.316Z] GET /api/v1/trainings/user/day/2","timestamp":"2025-04-13T22:44:36.316Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:44:36 +0000] \"GET /api/v1/trainings/user/day/2 HTTP/1.1\" 200 1224 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:44:36.334Z"}
+{"level":"info","message":"[2025-04-13T22:44:44.083Z] GET /api/v1/trainings/compare/2","timestamp":"2025-04-13T22:44:44.083Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:44:44 +0000] \"GET /api/v1/trainings/compare/2 HTTP/1.1\" 200 277 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:44:44.088Z"}
+{"level":"info","message":"[2025-04-13T22:45:26.286Z] GET /api/v1/trainings/user/day/2","timestamp":"2025-04-13T22:45:26.286Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:22:45:26 +0000] \"GET /api/v1/trainings/user/day/2 HTTP/1.1\" 200 1224 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:45:26.290Z"}

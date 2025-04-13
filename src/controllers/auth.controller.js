@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken';
 import config from '../config.js';
 import User from '../models/User.js';
-import { successResponse, errorResponse } from '../../utils/response.js';
+import { successResponse, errorResponse } from '../utils/responseHelper.js';
 import { generateAccessToken } from '../services/generateAccessToken.js'
 import bcrypt from 'bcrypt';
 
