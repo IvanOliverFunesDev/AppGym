@@ -33,3 +33,19 @@ export const getUserTrainingsController = async (req, res) => {
     return errorResponse(res, 500, 'Error al obtener el historial', [{ message: error.message }]);
   }
 }
+
+export const getTrainingsByDayController = async (req, res) => {
+  const userId = req.user.id;
+  const dayNumber = parseInt(req.params.routineDayNumber);
+
+  try {
+    const trainings = await Training.find({
+      user: userId,
+      routineDayNumber: dayNumber
+    }).sort({ createdAt: 1 });
+
+    return successResponse(res, `Entrenamientos del Día ${dayNumber}`, trainings);
+  } catch (error) {
+    return errorResponse(res, 500, 'Error al obtener entrenamientos por día', [{ message: error.message }]);
+  }
+}
