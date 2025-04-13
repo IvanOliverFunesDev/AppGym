@@ -1,5 +1,5 @@
 import Routine from '../models/Routine.js';
-import { errorResponse, successResponse } from '../../utils/response.js';
+import { errorResponse, successResponse } from '../utils/responseHelper.js';
 
 export const createRoutineController = async (req, res) => {
   const userId = req.user.id;
