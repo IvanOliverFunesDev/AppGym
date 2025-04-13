@@ -7,7 +7,6 @@ import bcrypt from 'bcrypt';
 
 const JWT_SECRET = config.security.JWT_SECRET;
 
-
 export const registerUserController = async (req, res) => {
   const { email, password, username } = req.body;
 
