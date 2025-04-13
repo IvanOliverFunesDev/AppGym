@@ -26,3 +26,18 @@ export const createRoutineController = async (req, res) => {
     return errorResponse(res, 500, 'Error al crear la rutina', [{ message: error.message }]);
   }
 };
+
+export const getRoutineController = async (req, res) => {
+  const userId = req.user.id;
+  try {
+    const existingRoutine = await Routine.findOne({ user: userId });
+
+    if (!existingRoutine) {
+      return errorResponse(res, 400, 'No tienes una rutina creada. Create una cuenta quieras!')
+    }
+    return successResponse(res, 'Rutina encontrada', existingRoutine);
+
+  } catch (error) {
+    return errorResponse(res, 500, 'Error al obtener la rutina', [{ message: error.message }]);
+  }
+}

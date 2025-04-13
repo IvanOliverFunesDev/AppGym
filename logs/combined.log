@@ -34,3 +34,19 @@
 {"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-10T08:39:47.271Z"}
 {"level":"info","message":"[2025-04-10T08:39:50.923Z] POST /api/v1/routines/","timestamp":"2025-04-10T08:39:50.923Z"}
 {"level":"info","message":"::1 - - [10/Apr/2025:08:39:50 +0000] \"POST /api/v1/routines/ HTTP/1.1\" 200 823 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-10T08:39:50.947Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-13T16:10:05.515Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-13T16:10:19.563Z"}
+{"level":"info","message":"[2025-04-13T16:12:32.712Z] POST /api/v1/routines/","timestamp":"2025-04-13T16:12:32.712Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:16:12:32 +0000] \"POST /api/v1/routines/ HTTP/1.1\" 403 56 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T16:12:32.727Z"}
+{"level":"info","message":"[2025-04-13T16:12:45.630Z] POST /api/v1/auth/login","timestamp":"2025-04-13T16:12:45.630Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:16:12:45 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 349 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T16:12:45.687Z"}
+{"level":"info","message":"[2025-04-13T16:13:08.589Z] POST /api/v1/routines/","timestamp":"2025-04-13T16:13:08.589Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:16:13:08 +0000] \"POST /api/v1/routines/ HTTP/1.1\" 400 99 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T16:13:08.623Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-13T16:29:47.196Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-13T16:29:47.203Z"}
+{"level":"info","message":"[2025-04-13T16:29:55.922Z] GET /api/v1/routines/routine","timestamp":"2025-04-13T16:29:55.922Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:16:29:55 +0000] \"GET /api/v1/routines/routine HTTP/1.1\" 200 813 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T16:29:55.940Z"}
+{"level":"info","message":"[2025-04-13T16:35:44.951Z] POST /api/v1/routines/routine","timestamp":"2025-04-13T16:35:44.951Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:16:35:44 +0000] \"POST /api/v1/routines/routine HTTP/1.1\" 400 99 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T16:35:44.956Z"}
+{"level":"info","message":"[2025-04-13T16:36:38.982Z] POST /api/v1/routines/routine","timestamp":"2025-04-13T16:36:38.982Z"}
+{"level":"info","message":"::1 - - [13/Apr/2025:16:36:38 +0000] \"POST /api/v1/routines/routine HTTP/1.1\" 400 99 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T16:36:38.985Z"}
