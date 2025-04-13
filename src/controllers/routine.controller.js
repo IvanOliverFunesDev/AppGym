@@ -64,3 +64,21 @@ export const deleteRoutineController = async (req, res) => {
     return errorResponse(res, 500, 'Error al eliminar la rutina', [{ message: error.message }]);
   }
 }
+
+export const getRoutineDayController = async (req, res) => {
+  const userId = req.user.id;
+  const dayNumber = parseInt(req.params.routineDayNumber);
+
+  try {
+    const routine = await Routine.findOne({ user: userId });
+    if (!routine) return errorResponse(res, 404, 'No tienes ninguna rutia creada');
+
+    const day = routine.days.find(d => d.dayNumber === dayNumber);
+
+    if (!day) return errorResponse(res, 404, `No se encontró el Día ${dayNumber} en tu rutina`);
+
+    return successResponse(res, `Día ${dayNumber} de la rutina cargado`, day);
+  } catch (error) {
+    return errorResponse(res, 500, 'Error al obtener el día de la rutina', [{ message: error.message }]);
+  }
+}

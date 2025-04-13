@@ -20,3 +20,16 @@ export const createTrainingController = async (req, res) => {
     return errorResponse(res, 500, 'Error al guardar el entrenamiento', [{ message: error.message }]);
   }
 };
+
+export const getUserTrainingsController = async (req, res) => {
+  const userId = req.user.id;
+
+  const order = req.query.order === 'asc' ? 1 : -1;
+
+  try {
+    const trainings = await Training.find({ user: userId }).sort({ createdAt: order });
+    return successResponse(res, 'Historial de entrenamientos', trainings);
+  } catch (error) {
+    return errorResponse(res, 500, 'Error al obtener el historial', [{ message: error.message }]);
+  }
+}
