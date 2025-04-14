@@ -88,12 +88,13 @@ Backend de una aplicación móvil de seguimiento de rutinas y entrenamientos, de
 
 ## 🏋️ ENTRENAMIENTOS
 
-| Método | Ruta                                            | Descripción                                  |
-|--------|-------------------------------------------------|----------------------------------------------|
-| POST   | /api/trainings                                  | Registrar un entrenamiento real              |
-| GET    | /api/trainings/user                             | Ver historial completo del usuario           |
-| GET    | /api/trainings/user/day/:routineDayNumber       | Ver historial de un día específico           |
-| GET    | /api/trainings/compare/:routineDayNumber        | Comparar progreso entre primer y último día  |
+| Método | Ruta                                            | Descripción                                           |
+|--------|-------------------------------------------------|-------------------------------------------------------|
+| POST   | /api/trainings                                  | Registrar un entrenamiento real                       |
+| GET    | /api/trainings/user                             | Ver historial completo del usuario                    |
+| GET    | /api/trainings/user/day/:routineDayNumber       | Ver historial de un día específico                    |
+| GET    | /api/trainings/compare/:routineDayNumber        | Comparar progreso entre primer y último de ese día    |
+| GET    | /api/trainings/next                             | Detectar automáticamente qué día le toca hoy          |
 
 ---
 
@@ -101,7 +102,6 @@ Backend de una aplicación móvil de seguimiento de rutinas y entrenamientos, de
 
 - [ ] Validación dura: comprobar que ejercicios coinciden con la rutina base
 - [ ] Eliminar entrenamiento (`DELETE /trainings/:id`)
-- [ ] Detectar automáticamente qué día le toca hoy (`/trainings/last`)
 - [ ] Resumen del entreno actual (`/trainings/today/summary`)
 - [ ] Múltiples rutinas por usuario
 - [ ] Edición de rutina ya creada
