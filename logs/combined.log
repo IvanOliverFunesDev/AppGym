@@ -166,3 +166,15 @@
 {"level":"info","message":"::1 - - [13/Apr/2025:22:44:44 +0000] \"GET /api/v1/trainings/compare/2 HTTP/1.1\" 200 277 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:44:44.088Z"}
 {"level":"info","message":"[2025-04-13T22:45:26.286Z] GET /api/v1/trainings/user/day/2","timestamp":"2025-04-13T22:45:26.286Z"}
 {"level":"info","message":"::1 - - [13/Apr/2025:22:45:26 +0000] \"GET /api/v1/trainings/user/day/2 HTTP/1.1\" 200 1224 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-04-13T22:45:26.290Z"}
+{"level":"info","message":"Server running en el puerto 3001...","timestamp":"2025-04-14T19:24:28.930Z"}
+{"level":"info","message":"🐵 Conectado a MongoDb","timestamp":"2025-04-14T19:24:28.938Z"}
+{"level":"info","message":"[2025-04-14T19:25:03.579Z] GET /api/v1/trainings/next","timestamp":"2025-04-14T19:25:03.579Z"}
+{"level":"info","message":"::1 - - [14/Apr/2025:19:25:03 +0000] \"GET /api/v1/trainings/next HTTP/1.1\" 403 56 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-14T19:25:03.593Z"}
+{"level":"info","message":"[2025-04-14T19:25:16.303Z] POST /api/v1/auth/login","timestamp":"2025-04-14T19:25:16.303Z"}
+{"level":"info","message":"::1 - - [14/Apr/2025:19:25:16 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 349 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-14T19:25:16.360Z"}
+{"level":"info","message":"[2025-04-14T19:25:51.737Z] GET /api/v1/trainings/next","timestamp":"2025-04-14T19:25:51.737Z"}
+{"level":"info","message":"::1 - - [14/Apr/2025:19:25:51 +0000] \"GET /api/v1/trainings/next HTTP/1.1\" 200 293 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-14T19:25:51.750Z"}
+{"level":"info","message":"[2025-04-14T19:26:10.955Z] POST /api/v1/trainings","timestamp":"2025-04-14T19:26:10.955Z"}
+{"level":"info","message":"::1 - - [14/Apr/2025:19:26:10 +0000] \"POST /api/v1/trainings HTTP/1.1\" 200 653 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-14T19:26:10.980Z"}
+{"level":"info","message":"[2025-04-14T19:26:23.439Z] GET /api/v1/trainings/next","timestamp":"2025-04-14T19:26:23.439Z"}
+{"level":"info","message":"::1 - - [14/Apr/2025:19:26:23 +0000] \"GET /api/v1/trainings/next HTTP/1.1\" 200 312 \"-\" \"PostmanRuntime/7.43.3\"","timestamp":"2025-04-14T19:26:23.444Z"}
