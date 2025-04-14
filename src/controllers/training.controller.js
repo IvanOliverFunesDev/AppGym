@@ -1,4 +1,5 @@
 import Training from '../models/Training.js';
+import Routine from '../models/Routine.js';
 import { successResponse, errorResponse } from '../utils/responseHelper.js';
 
 export const createTrainingController = async (req, res) => {
@@ -99,5 +100,40 @@ export const compareTrainingsController = async (req, res) => {
     return successResponse(res, `Comparación del Día ${dayNumber}`, result);
   } catch (error) {
     return errorResponse(res, 500, 'Error al comparar entrenamientos', [{ message: error.message }]);
+  }
+};
+
+export const getNextTrainingDayController = async (req, res) => {
+  const userId = req.user.id;
+
+  try {
+    const routine = await Routine.findOne({ user: userId });
+    if (!routine) {
+      return errorResponse(res, 404, 'No tienes una rutina creada');
+    }
+
+    const lastTraining = await Training.findOne({ user: userId })
+      .sort({ createdAt: -1 });
+
+    let nextDayNumber = 1;
+
+    if (lastTraining) {
+      const lastDay = lastTraining.routineDayNumber;
+      nextDayNumber = lastDay < routine.daysPerWeek ? lastDay + 1 : 1;
+    }
+
+    const nextDay = routine.days.find(d => d.dayNumber === nextDayNumber);
+
+    if (!nextDay) {
+      return errorResponse(res, 404, `No se encontró el Día ${nextDayNumber} en tu rutina`);
+    }
+
+    return successResponse(res, `Hoy toca el Día ${nextDayNumber}: ${nextDay.name}`, {
+      nextDayNumber,
+      day: nextDay
+    });
+
+  } catch (error) {
+    return errorResponse(res, 500, 'Error al obtener el siguiente día de entrenamiento', [{ message: error.message }]);
   }
 };
