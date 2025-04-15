@@ -136,3 +136,5 @@ Proyecto desarrollado por **Iván Oliver Funes**
 Desarrollador Web Fullstack & Culturista
 
 ---
+
+pd pon tus creedenciales en el .env, gracias!
