@@ -9,7 +9,7 @@ import { errorHandlingMiddleware } from '../middleware/error-handling.middleware
 export default function (app) {
   app.use(loggerMiddleware);
   app.use(cors({
-    origin: [],
+    origin: ['http://localhost:8081'],
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization'],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
