@@ -3,7 +3,7 @@ dotenv.config();
 
 const config = {
   app: {
-    PORT: process.env.PORT || 3000,
+    PORT: process.env.PORT || 3001,
   },
   database: {
     MONGO_URI: process.env.MONGO_URI,

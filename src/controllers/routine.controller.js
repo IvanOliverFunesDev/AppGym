@@ -63,6 +63,12 @@ export const deleteRoutineController = async (req, res) => {
 
     await Routine.findOneAndDelete({ _id: routineId });
 
+    const user = await User.findById(userId);
+    user.routines = []; // reset total
+    await user.save();
+    console.log('✅ Guardado correctamente');
+
+    console.log('✅ Usuario actualizado:', user);
     return successResponse(res, 'Rutina eliminada correctamente');
 
   } catch (error) {
