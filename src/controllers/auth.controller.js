@@ -57,6 +57,7 @@ export const loginController = async (req, res) => {
       id: userFound._id,
       username: userFound.username,
       email: userFound.email,
+      hasRoutine: Array.isArray(userFound.routines) && userFound.routines.length > 0,
       token
     });
   } catch (error) {

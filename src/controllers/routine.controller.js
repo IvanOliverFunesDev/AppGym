@@ -1,4 +1,5 @@
 import Routine from '../models/Routine.js';
+import User from '../models/User.js';
 import { errorResponse, successResponse } from '../utils/responseHelper.js';
 
 export const createRoutineController = async (req, res) => {
@@ -18,6 +19,10 @@ export const createRoutineController = async (req, res) => {
     });
 
     const savedRoutine = await newRoutine.save();
+
+    const user = await User.findById(userId);
+    user.routines.push(savedRoutine._id);
+    await user.save();
 
     return successResponse(res, 'Rutina creada correctamente', savedRoutine);
   } catch (error) {
@@ -58,6 +63,12 @@ export const deleteRoutineController = async (req, res) => {
 
     await Routine.findOneAndDelete({ _id: routineId });
 
+    const user = await User.findById(userId);
+    user.routines = []; // reset total
+    await user.save();
+    console.log('✅ Guardado correctamente');
+
+    console.log('✅ Usuario actualizado:', user);
     return successResponse(res, 'Rutina eliminada correctamente');
 
   } catch (error) {
