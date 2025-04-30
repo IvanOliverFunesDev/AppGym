@@ -138,3 +138,12 @@ Desarrollador Web Fullstack & Culturista
 ---
 
 pd pon tus creedenciales en el .env, gracias!
+
+---
+
+## 📄 Licencia
+
+Este proyecto está protegido bajo la licencia [Creative Commons BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).  
+No está permitido su uso comercial, modificación ni distribución sin permiso del autor.
+
+© 2025 Iván Oliver Funes. Todos los derechos reservados.
